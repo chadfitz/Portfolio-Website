@@ -3904,10 +3904,6 @@ input, select, textarea {
 		}
 
 /* Intro */
-	.featured-projects{
-		padding-top: 0.5em;
-		font-size: 2.25em;
-	}
 
 	#intro {
 		background-attachment: fixed;
@@ -3944,3 +3940,37 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* personal styling */
+	/* --- padding for projects section --- */
+	#one {
+		padding: 4em 4em 2em 4em;
+	}
+	/* --- */
+	
+		/* --- project borders --- */
+		.project {
+			border: solid 1px rgba(255, 255, 255, 0.15);
+		}
+
+		#one > .project:nth-child(2) {
+			border-radius: 0.25em 0.25em 0 0;
+		}
+		#one > .project:nth-child(3) {
+			border: solid 1px rgba(255, 255, 255, 0.15);
+			border-width: 0px 1px;
+		}
+
+		#one > .project:nth-child(4) {
+			border-radius: 0 0 0.25em 0.25em;
+		}
+
+		#top-project-image {
+			border-radius: 0.25em 0 0 0;
+		}
+
+		#bottom-project-image {
+			border-radius: 0 0 0 0.25em;
+		}
+		/* --- */
